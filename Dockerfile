@@ -1,4 +1,4 @@
-FROM alpine
+FROM alpine:3.10
 
 ## alpine curl and wget aren't fully compatible, so we install them
 ## here. gnupg is needed for Module::Signature.
